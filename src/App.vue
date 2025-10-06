@@ -18,9 +18,7 @@ const clientes: ImagePath[] = [
 const distribuidores: ImagePath[] = [
   '/images/parker.jpg',
   '/images/beta.png',
-  '/images/aircare.jpg',
-  '/images/infra.png',
-  '/images/finesa.jpg'
+  '/images/aircare.png'
 ]
 
 // Logo path con type safety
@@ -154,12 +152,12 @@ const openWhatsApp = () => {
           <li>✔ Dobladora de lámina para calibre 3/16</li>
           <li>✔ Roladora de lámina 3/16</li>
           <li>✔ Dobladora de tubo</li>
-          <li>✔ 1.5 plg espesor de 1/16</li>
           <li>✔ Torno convencional de 1 metro entre puntos</li>
           <li>✔ Fresadora</li>
           <li>✔ Rectificadora</li>
           <li>✔ Soldadura MIG, TIG y punteadora</li>
-          <li>✔ Grabadora láser e Impresora 3D</li>
+          <li>✔ Grabadora láser de fibra y UV</li>
+          <li>✔ Impresora 3D</li>
         </ul>
       </div>
     </section>
@@ -171,12 +169,6 @@ const openWhatsApp = () => {
           <h2 class="text-3xl md:text-4xl font-bold mb-6">Contáctanos</h2>
           <p class="mb-4">📧 sales@vaestra.solutions</p>
           <p class="mb-4">📞 442 239 5074</p>
-          <h3 class="text-xl font-semibold mt-6">Direcciones</h3>
-          <ul class="mt-4 space-y-3 text-gray-300">
-            <li><b>Matriz:</b> Calle 1B, 101 A, Col. Comerciantes, Querétaro, CP 76087</li>
-            <li><b>Taller:</b> Carretera Libre a Celaya Km 11, LT 2 Mz 26, Ampliación Los Ángeles, Corregidora, CP 76902</li>
-            <li><b>Sucursal Zacatecas:</b> Antiguo camino Panamericano #234-A, Héroes de Chapultepec, CP 98057</li>
-          </ul>
         </div>
         <div class="bg-white text-gray-900 p-8 rounded-lg shadow">
           <h3 class="text-xl font-semibold mb-4">Mensaje Directo</h3>
